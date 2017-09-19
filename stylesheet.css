@@ -1,3 +1,12 @@
 h1 {
     color: salmon;
 }
+
+#textbox {
+    background-color:#FFF;
+    min-height:200px;
+    line-height: 300px;
+}
+#txtbx {
+    padding-left: px
+}
