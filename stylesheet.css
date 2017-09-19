@@ -3,10 +3,14 @@ h1 {
 }
 
 #textbox {
-    background-color:#FFF;
-    min-height:200px;
-    line-height: 300px;
 }
-#txtbx {
-    padding-left: px
+#txtbx{
+    padding-left: 170px;
+    position: fixed;
 }
+
+#wordsss{
+    position: fixed;
+}
+
+#23 { border: 1px solid; white-space: pre-wrap; }

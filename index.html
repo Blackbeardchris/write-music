@@ -9,8 +9,23 @@
         <script type="text/javascript" src="script.js"></script>
             <h1>Make Music JS project</h1>
     <div id="textbox">
-            <strong>Type text here fam dog:</strong>
-            <div id="txtbx"><textarea rows="10" cols="25" placeholder="Type here!"></textarea></div>
+            <div id="txtbx"><textarea rows="25" cols="80" placeholder="Type here!"></textarea></div>
+            <div id="wordsss"><strong>Type text here fam dog:</strong></div><br>
+    </div>
+    <script>
+    var txtareafam = document.getElementById("txtbx");
+    var out = document.querySelector("23");
+    
+        txt.addEventListener("input", updateOutput);
+
+function updateOutput() {
+    out.innerHTML = txt.value;    
+}
+
+updateOutput();
+    </script>
+    <div id="23">
+    <h3>output</h3>
     </div>
 </body>
 </html>
