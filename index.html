@@ -6,28 +6,26 @@
     
 <body>
     <link rel=stylesheet href="stylesheet.css">
-        <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
             <h1>Make Music JS project</h1>
-   
-            <div class="txtbx"><textarea rows="25" cols="80" placeholder="Type here!"></textarea></div>
+            <div id="textarea"><textarea update rows="25" cols="80" placeholder="Type here!"></textarea></div>
             <div id="wordsss"><strong>Type text here fam dog:</strong></div><br>
- 
-HERE
-<div class="body-wrapper" style="font-family: 'Open Sans Light',Helvetica,Arial,sans-serif;">
-  <h2>HTML Input</h2>
-  <textarea id="code" class="html-input" style="width: 90%;height: 10em;padding: 10px;border: 1px solid #0095dd;">  &lt;p&gt;Some sample text for your delight&lt;/p&gt;</textarea>
 
-  <h2>CSS Input</h2>
-  <textarea id="code" class="css-input" style="width: 90%;height: 10em;padding: 10px;border: 1px solid #0095dd;">p {
+<h3>output</h3>
 
-  }</textarea>
+<p></p>
 
-  <h2>Output</h2>
-  <div class="output" style="width: 90%;height: 10em;padding: 10px;border: 1px solid #0095dd;">  <p>Some sample text for your delight</p></div>
-  <div class="controls">
-    <input id="reset" type="button" value="Reset" style="margin: 10px 10px 0 0;">
-  </div>
-</div>  
+<script>
+var txt = document.querySelector ('textarea')
+var out = document.querySelector('p')
 
+txt.addEventListener('input', updateOutput);
+    
+function updateOutput() {
+    out.innerHTML = txt.value;
+}
+
+    console.log(out)
+</script>
 </body>
 </html>
