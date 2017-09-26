@@ -4,12 +4,64 @@ h1 {
 
 #textbox {
 }
-#txtbx{
+#textarea1{
     padding-left: 170px;
     position: fixed;
 }
-
+h3 {
+    padding-top: 300px;
+}
 #wordsss{
     position: fixed;
 }
 workpls { border: 1px solid; white-space: pre-wrap; }
+
+/* Button */
+.dropbtn {
+ float:left;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+/* dropdown position*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+p {
+}
+/* content of the dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* content of the dropdown colour and stuff*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* colour of dropdown*/
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* make the content hover hidden*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* background colour of the button*/
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
