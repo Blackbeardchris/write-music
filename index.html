@@ -13,26 +13,50 @@
             <div class="dropdown">
                 <buttton class="dropbtn">DropDown</buttton>
                 <div class="dropdown-content">
-                <a href="#">Link 1</a>
+                <ul>Link 1</ul>
+                <ul>Link 2</ul>
                 </div>
             </div>
 <h3>output</h3>
 
 <p></p>
+<div id="output"></div>
 <script>
-var csss = document.querySelector ('')
-var txt = document.querySelector('textarea');
-var out = document.querySelector('p')
 
-csss.addEventListener('input', updateOutput);
-txt.addEventListener('input', updateOutput);
+var txxt = document.querySelector('textarea');
+var out = document.querySelector('p');
+
+txxt.addEventListener('input', updateOutput);
     
 function updateOutput() {
-    out.innerHTML = txt.value + csss.value;
+    out.innerHTML = txxt.value;
 }
-//fam hol up
-
     
+
+//fam hol up again
+
+
+
+//fam hol up
+    
+
+//function music() {
+    //var textAreaInput = document.getElementById("textarea1").value;
+    //var output = document.querySelector('p');
+    //var result = document.getElementById("textarea1").value.match( /[^.!?]+[.!?]+/g );
+    //var words = textAreaInput.split(" ");   
+    //for (i = 0; i < result.length; i++) {
+        //if (i <= 2) {
+        // csss.value
+        //}
+        //else if (i === 3, i === 4, i === 5) {
+        //document.getElementById("textAreaInput").style.font-color = 'red';
+    //}
+    //output.innerHTML += result[i];
+    //}
+    // output.innerHTML = result[0].split(" ").length;   
+//}
+
 </script>
 
     

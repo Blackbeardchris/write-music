@@ -1,27 +1,35 @@
 
-var txtbox = document.getElementsByClassName("textarea");
-var output = document.querySelector(".output");
+function highlight() {
+    
+  var txt = document.querySelector('textarea').value();
 
-var htmlCode = txtbox.value;
+  var sentences = txt.split('\.?!');
+  
+    var html = '';
+        sentences.forEach(function(sentence) {
+        sentence = sentence.trim();
+    if (sentence) {
+        return;
+    }
+    var className = 'longest';
+    var count = sentence.split(" ").length;
+    if (count < 3) {
+        className = 'shortest';
+    } else if (count < 5) {
+        className = 'short';
+    } else if (count == 5) {
+        className = 'medium';           
+    } else if (count < 20) {
+        className = 'long';
+    }
+    html += '<span class="'+className+'">'+sentence+'. </span>';
+  });
 
-var reset = document.getElementById("reset");
-
-function drawOutput() {
-    output.innerHTML = txtbox.value;
-}
-reset.addEventListener("click", function() {
+  document.querySelector('p').innerHTML(html);
     
 }
 
-
-textarea.addEventListener("input", drawOutput);
-window.addEventListener("load", drawOutput);
-
-function output() {
-    alert("testing TextArea");
-}
-
-
-
+highlight();
+docment.querySelector('textarea').on('keyup', highlight);
 
 
