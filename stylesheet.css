@@ -1,3 +1,7 @@
+.p {
+    
+}
+
 h1 {
     color: salmon;
 }
@@ -32,13 +36,13 @@ textarea {
   margin-right: 6px;
 }
 
-#output .shortest {
+.shortest {
   background-color: rgba(255, 255, 0, 0.44);
 }
-#output .short {
-  background-color: rgba(255, 192, 203, 0.62);
+.short {
+  background-color: red;
 }
-#output .medium {
+.medium {
   background-color: rgba(244, 67, 54, 0.6);
 }
 #output .long {
