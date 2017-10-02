@@ -21,5 +21,3 @@ var textAreaInput = document.getElementById("text").value;
 };
 
 
-music();
-document.querySelector('textarea').on('keyup', music);
