@@ -1,104 +1,76 @@
-.p {
-    
-}
-
-h1 {
-    color: salmon;
-}
-
-#textbox {
-}
-#textarea1{
-    padding-left: 170px;
-    position: fixed;
-}
-h3 {
-    padding-top: 300px;
-}
-#wordsss{
-    position: fixed;
-}
-workpls { border: 1px solid; white-space: pre-wrap; }
-/*HOL UP FAM*/
-textarea {
-  width: 100%;
-  height: 6rem;
+body {
+    background-image: url("https://itmeo.com/public/webgradients_png/002%20Night%20Fade.png");
+    position: static;
 }
 
 #output {
-  font-family: Arial;
-  line-height: 2rem;
-  margin: 10%;
-}
-
-#output span {
-  padding: 4px 2px;
-  margin-right: 6px;
-}
-
-.shortest {
-  background-color: rgba(255, 255, 0, 0.44);
-}
-.short {
-  background-color: red;
-}
-.medium {
-  background-color: rgba(244, 67, 54, 0.6);
-}
-#output .long {
-  background-color: rgba(128, 224, 31, 0.59);
-}
-#output .longest {
-  background-color: rgba(0, 255, 255, 0.39);
-}
-/* woah there */
-/* Button */
-.dropbtn {
- float:left;
-}
-.dropbtn {
-    background-color: #4CAF50;
+    font-family: arial;
+    font-weight: bold;
+    text-align: justify;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-/* dropdown position*/
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-p {
-}
-/* content of the dropdown */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    text-shadow: 2px 2px 2px black;
 }
 
-/* content of the dropdown colour and stuff*/
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.tiny { 
+    background-color: yellow;
+    color: white;
+}
+
+.short {
+    background-color: red;
+    color: white;
+}
+
+.medium {
+    background-color: green;
+    color: white;
+}
+
+.long {
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+textarea {
     display: block;
+    width: 500px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-color: lightblue;
 }
-
-/* colour of dropdown*/
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* make the content hover hidden*/
-.dropdown:hover .dropdown-content {
+button {
     display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-/* background colour of the button*/
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 50px 55px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+    width: 300px;
+    height: 300px;
 }
-/* fam hol up */
+
+#colorSelect {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
