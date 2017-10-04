@@ -1,4 +1,4 @@
-# write-music
+# write-music bro
 Overview:
 The code find and splits the values from the textarea using periods, exclamation marks and question marks.
 Line 3 is saying is activating everything when a key is pressed and released.
