@@ -8,6 +8,6 @@ Line 30-38 is explaining that when a certain amount of words are reached a font 
 **IN ORDER TO WORK PROPERLY DON'T PUT SPACES AFTER PUNCTUATION(i cant seem to get it to work)**
 
 Planning:
-* first figure out how to output something from a txt area into a <p> tag
+* first figure out how to output something from a txt area into a p tag
 
 Review: I think i was really hard, from this I learned to complexity of arrays and how creative you can get with using an array.
